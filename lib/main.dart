@@ -142,8 +142,6 @@ class _MyHomePageState extends State<MyHomePage> {
               future: wdWarning,
               builder:
                   (context, AsyncSnapshot<WeatherWarningSummary> snapshot) {
-                print(
-                    '{build} snapshot: error: ${snapshot.hasError}, data: ${snapshot.hasData}, connectionState: ${snapshot.connectionState}');
                 if (snapshot.hasError) return Text("${snapshot.error}");
                 if (snapshot.connectionState == ConnectionState.done &&
                     snapshot.hasData) {

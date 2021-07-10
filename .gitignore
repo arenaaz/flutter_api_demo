@@ -1,0 +1,13 @@
+/.dart_tool
+/.idea
+/.metadata
+/.packages
+/.vscode
+/analysis_options.yaml
+/android
+/build
+/hko_weather.iml
+/ios
+/pubspec.lock
+/web
+/windows
